@@ -9,8 +9,10 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('input[type="text"]').keydown(function () {
+  $('input[type="text"]').keydown(function (e) {
+    if (e.which == ) {
 
+    }
   })
 }
 
