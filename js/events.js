@@ -3,12 +3,6 @@ function getIt() {
 }
 
 function frameIt() {
-  // $('img').on('load', function () {
-  //   $(this).addClass('tasty')
-  // })
-  // $('img').on('click', function () {
-  //   $(this).addClass('tasty')
-  // })
   $('img').load(function () {
     $(this).addClass('tasty')
   })
