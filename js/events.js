@@ -11,6 +11,7 @@ function frameIt() {
 function pressIt() {
   $('input#typing').keydown(function (e) {
     if (e.key == 'g' || e.location == 'g') {
+      console.log(e);
       alert("You have pressed the G key");
     }
   })
