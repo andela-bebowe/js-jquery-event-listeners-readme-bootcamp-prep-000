@@ -3,7 +3,7 @@ function getIt() {
 }
 
 function frameIt() {
-  $img = $('img')[0];
+  $img = $('img');
   $img.on('load', () => {
     $img.className = 'tasty'
   })
