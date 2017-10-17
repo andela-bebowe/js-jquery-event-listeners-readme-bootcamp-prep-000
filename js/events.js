@@ -9,7 +9,7 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('input[type="text"]').keydown(function (e) {
+  $('input#typing').keydown(function (e) {
     if (e.key == 'g') {
       alert("You have pressed the G key");
     }
