@@ -3,7 +3,9 @@ function getIt() {
 }
 
 function frameIt() {
-  $('body img').load(() => {
+  console.log("jadgufa");
+  $('img').load(() => {
+    console.log("hahf");
     $( this ).addClass('tasty')
   })
 }
