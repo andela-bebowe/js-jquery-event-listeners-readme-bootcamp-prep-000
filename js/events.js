@@ -3,7 +3,7 @@ function getIt() {
 }
 
 function frameIt() {
-  $('img').load(() => {
+  $('body img').load(() => {
     $( this ).addClass('tasty')
   })
 }
