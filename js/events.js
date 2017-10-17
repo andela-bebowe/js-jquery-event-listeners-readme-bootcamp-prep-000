@@ -10,7 +10,7 @@ function frameIt() {
 
 function pressIt() {
   $('input#typing').keydown(function (e) {
-    if (e.key == 'g' || e.which == 'g') {
+    if (e.key == 'g' || e.location == 'g') {
       alert("You have pressed the G key");
     }
   })
