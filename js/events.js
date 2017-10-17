@@ -6,6 +6,9 @@ function frameIt() {
   $('img').on('load', function () {
     $(this).addClass('tasty')
   })
+  $('img').load(function () {
+    $(this).addClass('tasty')
+  })
 }
 
 $(document).ready(function(){
