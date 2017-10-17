@@ -3,9 +3,13 @@ function getIt() {
 }
 
 function frameIt() {
-  $('img')[0].
+  $img = $('img')[0];
+  $img.on('load', () => {
+    $img.className = 'tasty'
+  })
 }
 
 $(document).ready(function(){
   getIt();
+  frameIt();
 });
