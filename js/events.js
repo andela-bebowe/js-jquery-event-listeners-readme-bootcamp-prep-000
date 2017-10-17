@@ -17,7 +17,10 @@ function pressIt() {
 }
 
 function submitIt() {
-  $()
+  $('form').submit(function (e) {
+    e.preventDefault()
+    
+  })
 }
 
 $(document).ready(function () {
