@@ -9,7 +9,9 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('input[type="text"]')
+  $('input[type="text"]').keydown(function () {
+
+  })
 }
 
 $(document).ready(function(){
