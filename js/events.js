@@ -4,7 +4,7 @@ function getIt() {
 
 function frameIt() {
   $('img').on('click', () => {
-    $( this ).addClass('tasty')
+    $(this).addClass('tasty')
   })
 }
 
