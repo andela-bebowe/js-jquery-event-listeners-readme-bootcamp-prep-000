@@ -12,7 +12,7 @@ function pressIt() {
   $('input[type="text"]').keydown(function (e) {
     console.log(e);
     if (e.which) {
-      alert()
+      alert("You have press")
     }
   })
 }
