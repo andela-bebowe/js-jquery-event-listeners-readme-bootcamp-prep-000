@@ -5,6 +5,7 @@ function getIt() {
 function frameIt() {
   $img = $('img');
   $img.on('load', () => {
+    console.log("hea");
     $img.className = 'tasty'
   })
 }
