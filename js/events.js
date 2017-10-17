@@ -17,7 +17,11 @@ function pressIt() {
   })
 }
 
-$(document).ready(function(){
+function submitIt() {
+
+}
+
+$(document).ready(function () {
   getIt();
   frameIt();
   pressIt();
