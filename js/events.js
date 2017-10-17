@@ -3,7 +3,7 @@ function getIt() {
 }
 
 function frameIt() {
-  $('img')[0]
+  $('img')[0].
 }
 
 $(document).ready(function(){
