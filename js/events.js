@@ -3,9 +3,8 @@ function getIt() {
 }
 
 function frameIt() {
-  $('img:first-child').on('load', () => {
-    console.log("hea");
-    $img.className = 'tasty'
+  $('img').on('load', () => {
+    this.className = 'tasty'
   })
 }
 
